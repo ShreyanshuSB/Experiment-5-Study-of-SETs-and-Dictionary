@@ -6,27 +6,123 @@ batch : Entc 2025-29
 
 tool : VS Code
 
-Study of Set and Dictionary
+# Aim
 
-This repository contains Experiment–4 of Exploratory Data Analysis (EDA) using Python, focusing on the study and implementation of Sets and Dictionaries. The objective of this experiment is to understand how Python handles unique data storage, membership testing, set operations, immutability, and key–value pair data structures, along with solving real-world problem statements using these concepts. All programs were executed using Python in Google Colab.
+To study and understand the concepts of Sets and Dictionaries in Python, their characteristics, operations, and real-world applications.
 
-In the first part of the experiment, Sets were explored in detail. The experiment begins with the creation of sets and demonstrates that sets automatically eliminate duplicate values. It also highlights how Python treats True and 1 as the same element inside a set due to their identical hash values. Sets containing mixed data types such as strings, integers, floating-point numbers, and boolean values were created to show Python’s flexibility. Membership operations were performed using the in keyword to search for elements within a set. The experiment further demonstrates that while sets are mutable, individual elements cannot be replaced; however, new elements can be added using the add() method and existing elements can be removed using the remove() method.
+# Detailed Theory
+Introduction
 
-The experiment also covers set operations, including union, intersection, difference, and symmetric difference, using mathematical operators. These operations were demonstrated using two numeric sets to clearly explain how common elements, unique elements, and combined elements are derived. Additionally, the concept of a frozenset was introduced to show an immutable version of a set. The experiment proves that once a frozenset is created, elements cannot be added or removed, making it useful in situations where data integrity must be maintained.
+Python provides several built-in data structures to store and manage data efficiently. Among them, Sets and Dictionaries are used when data needs to be stored in a unique or key-value form. This experiment focuses on understanding these two important data structures and their behavior.
 
-Several problem statements using sets were implemented to apply theoretical concepts to practical scenarios. These include removing duplicate event participants to display only unique names, finding common elective subjects chosen by multiple students, identifying students who are members of both cricket and football clubs as well as those who belong to only one club, and removing a discontinued course code from a set of courses. These problems demonstrate how sets efficiently handle uniqueness and comparisons in real-life applications.
+# Sets in Python
+What is a Set?
 
-In the second part of the experiment, Dictionaries were studied as a key–value pair data structure. The experiment begins with dictionary creation and shows how Python handles duplicate keys by retaining the latest value. Operations such as finding the length of a dictionary, accessing values using keys, adding new key–value pairs, updating existing values, and removing elements using the pop() method were demonstrated. These operations highlight how dictionaries allow fast and structured data retrieval.
+A set is an unordered collection of unique elements. Sets are used when duplication of data is not allowed and when fast membership testing is required.
 
-The experiment further includes problem statements using dictionaries to reinforce practical understanding. Programs were written to update the price of a product stored in a dictionary, search for a student’s marks using their name and display a suitable message if the student is not found, validate user login credentials using stored usernames and passwords, and identify the student who scored the highest marks using dictionary functions. These examples demonstrate how dictionaries are commonly used in real-world applications such as authentication systems, student records, and inventory management.
+Characteristics of Sets
 
-Overall, this experiment provides a clear understanding of Sets and Dictionaries in Python, emphasizing their importance in data handling, uniqueness enforcement, fast lookup operations, and real-world problem solving. The experiment successfully bridges theoretical concepts with practical implementation, making it a strong foundation for further studies in Python programming and data analysis.
+Sets are unordered, meaning elements do not have a fixed position
 
-###Conclusion
+Sets do not allow duplicate values
 
-In this experiment, the concepts of Sets and Dictionaries in Python were studied and implemented successfully using Google Colab. Through various examples and problem statements, it was observed that sets are highly efficient for storing unique elements, performing membership tests, and executing mathematical set operations such as union, intersection, difference, and symmetric difference. The experiment also demonstrated the behavior of mixed data types in sets and highlighted the immutability of frozensets, which ensures data integrity when modification is not allowed.
+Sets are mutable, but their elements must be immutable
 
-The study of dictionaries provided insight into key–value pair data storage, enabling fast data access, modification, and retrieval. Operations such as adding, updating, searching, and deleting dictionary elements were implemented effectively. Practical applications like updating product prices, searching student marks, validating user login credentials, and identifying the highest scorer clearly demonstrated the real-world usefulness of dictionaries.
+Indexing is not supported
 
-Overall, this experiment strengthened the understanding of Python’s data structures and their role in efficient data organization and problem solving. The hands-on implementation helped bridge the gap between theory and practice, making it easier to apply these concepts in real-life programming scenarios and future data analysis tasks.
+Sets are optimized for fast searching and membership testing
+
+Set Operations
+
+Sets support mathematical operations such as:
+
+Union
+
+Intersection
+
+Difference
+
+Symmetric Difference
+
+These operations make sets useful for comparing data and removing duplicates.
+
+Applications of Sets
+
+Removing duplicate values from data
+
+Membership testing
+
+Mathematical and logical operations
+
+Data comparison tasks
+
+# Dictionaries in Python
+What is a Dictionary?
+
+A dictionary is a collection of data stored in the form of key–value pairs. Each key is unique and is used to access its corresponding value.
+
+Characteristics of Dictionaries
+
+Dictionaries are unordered collections (logically key-based)
+
+Data is stored as key–value pairs
+
+Keys must be unique and immutable
+
+Values can be of any data type
+
+Dictionaries are mutable
+
+Dictionary Operations
+
+Common operations include:
+
+Accessing values using keys
+
+Adding new key–value pairs
+
+Updating existing values
+
+Removing elements
+
+Iterating through keys and values
+
+Applications of Dictionaries
+
+Storing structured data
+
+Representing real-world entities (student records, employee data, etc.)
+
+Fast data lookup
+
+Configuration and mapping tasks
+
+# Difference Between Set and Dictionary
+Feature	Set	Dictionary
+Data Storage	Only values	Key–value pairs
+Duplicate Values	Not allowed	Values allowed, keys unique
+Indexing	Not supported	Accessed using keys
+Use Case	Unique data storage	Structured data storage
+
+# Experiment Description
+
+In this experiment, the behavior and functionality of Sets and Dictionaries are studied. Their properties, operations, and use cases are analyzed to understand how Python efficiently manages unique and structured data.
+
+# Requirements
+
+Python Programming Environment
+
+Basic knowledge of Python fundamentals
+
+# Conclusion
+
+The study of Sets and Dictionaries demonstrates their importance in Python programming. Sets are ideal for storing unique data and performing mathematical operations, while dictionaries provide an efficient way to store and retrieve structured information using key–value pairs. Understanding these data structures improves problem-solving efficiency and helps in designing optimized Python programs.
+
+# Learning Outcome
+
+Understanding of set and dictionary concepts
+
+Knowledge of their characteristics and applications
+
+Ability to choose appropriate data structures for different problemsply these concepts in real-life programming scenarios and future data analysis tasks.
 
