@@ -1,6 +1,6 @@
 # Experiment-5-Study-of-SETs-and-Dictionary
 
-Name : Aanjneya Pankharaj
+Name : Shreyanshu Behera
 PRN : 25070123149
 batch : Entc 2025-29
 
